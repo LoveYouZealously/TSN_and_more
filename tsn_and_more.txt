@@ -1,2 +1,20 @@
-这篇文章是two stream的改进。文章要解决两个问题：一是长时间视频的行为判断问题；二是解决数据少的问题。
+TSN：
+    这篇文章是two stream的改进。文章要解决两个问题：一是长时间视频的行为判断问题；二是解决数据少的问题。
+    https://blog.csdn.net/u014380165/article/details/79029309
+
+
+
+TSM：
+    3D卷积的计算成本很大，也有一些方法平衡效果与速度，但这些方法往往丢失了一些有用的信息。
+    因此本文提出了一种可以能够插入2D CNNs的网络中实现时序上的学习的方法。
+    代码地址：https://github.com/mit-han-lab/temporal-shift-module
+
+
+
+TPN
+
+
+
+
+
 
