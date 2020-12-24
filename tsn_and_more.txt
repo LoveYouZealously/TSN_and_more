@@ -11,8 +11,20 @@ TSM：
 
 
 
-TPN
+TPN：
+    动作往往是有速度的，walking、jogging、running动作相似，但在速度上不同。
 
+    相似的有FaceBook的SlowFast网络。
+
+    本文思想：
+        用多层特征图作为金字塔。
+        空间上通过卷积保证不同层尺度上的一致性，时间上通过超参数来保证时序上的一致性。
+        然后通过逐元素相加的方式来融合特征。
+        最后在通道维度concatenate
+
+    https://blog.csdn.net/u011609063/article/details/105760954
+    https://zhuanlan.zhihu.com/p/127366929
+    https://zhuanlan.zhihu.com/p/172136901
 
 
 
